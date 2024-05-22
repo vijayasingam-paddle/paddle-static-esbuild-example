@@ -1,0 +1,15 @@
+{
+  "name": "static-esbuild-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild --bundle main.ts > main.js",
+    "start": "npx http-server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@paddle/paddle-js": "^1.1.0",
+    "esbuild": "^0.21.3",
+    "typescript": "^5.4.5"
+  }
+}
